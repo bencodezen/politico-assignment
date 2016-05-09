@@ -1,0 +1,40 @@
+// ============================================================================
+// COMPONENT: #Footer
+// ============================================================================
+
+.footer {
+  background: $black;
+  padding-bottom: 50px;
+
+  &__category {
+    flex: 1 1 100%;
+    padding: 15px 20px 0;
+
+    @include breakpoint($tablet) {
+      flex: 1 1 25%;
+    }
+
+    &-heading {
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $light-grey;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    color: $white;
+
+    width: 90%;
+    margin: 0 auto;
+
+    @include breakpoint($tablet) {
+      width: 80%;
+    }
+  }
+
+  a {
+    color: $white;
+  }
+}
