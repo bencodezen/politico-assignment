@@ -1,6 +1,6 @@
 # POLITICO Assignment
 
-Check out the demo here!
+[Check out the demo here!](http://bencodezen.github.io/politico-assignment/app/)
 
 ## Getting Setup
 
