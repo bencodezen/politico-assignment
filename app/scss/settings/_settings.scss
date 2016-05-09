@@ -4,5 +4,19 @@
 
 // Colors
 
-$black: rgb(0, 0, 0);
-$white: rgb(255, 255, 255);
+$black:      rgb(  0,   0,   0);
+$light-grey: rgb(204, 204, 204);
+$white:      rgb(255, 255, 255);
+
+// Screen Dimensions
+
+$tablet: 768px;
+$desktop: 1024px;
+
+// Mixin
+
+@mixin breakpoint($dimension) {
+  @media screen and (min-width: $dimension) {
+    @content;
+  }
+}

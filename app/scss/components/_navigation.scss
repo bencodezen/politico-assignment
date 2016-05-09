@@ -5,10 +5,33 @@
 .nav {
   &__list {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    position: absolute;
+    top: 55px;
+    right: 0;
+    color: red;
+    z-index: 999;
+
+    @include breakpoint($desktop) {
+      // Edge Case: !important to override jQuery when user moves from hidden mobile menu to desktop
+      display: flex !important;
+      flex-direction: row;
+      position: static;
+    }
   }
 
   &__item {
-    display: inline-block;
+    display: block;
     padding: 10px;
+    background: $black;
+    border-top: 1px solid $light-grey;
+    text-align: right;
+
+    @include breakpoint($desktop) {
+      display: inline-block;
+      border: 0;
+    }
   }
 }
