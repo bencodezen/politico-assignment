@@ -73,7 +73,7 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('css'))
+    .pipe(gulp.dest('app/css'))
     .pipe(autoprefixer({
       browsers: ['last 3 versions'],
       cascade: false
