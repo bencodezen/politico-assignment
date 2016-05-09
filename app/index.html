@@ -42,7 +42,7 @@
           <h2 class="article__title">The stories behind NYC street names</h2>
           <p class="article__subtitle">History of the biggest little island in America.</p>
           <p class="article__author">By Debbie Smith | <time datetime="2016-04-23">04/23/16</time></p>
-          <button class="btn--primary">see full image</button>
+          <button class="btn--primary" id="toggle-overlay">see full image</button>
         </div>
       </div>
 
@@ -138,7 +138,10 @@
       </div>
     </div>
   </footer>
-
+  <div class="overlay" id="overlay">
+    <img class="overlay__close" id="overlay__close" src="img/btn-close.png" alt="Close button">
+    <img src="img/photo-city-full.jpg" alt="City image">
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="js/index.js"></script>
 </body>
