@@ -13,8 +13,10 @@
 @import "base/typography";
 
 // Layout
+@import "layout/layout";
 
 // Components
+@import "components/article";
 @import "components/buttons";
 @import "components/header";
 @import "components/navigation";
