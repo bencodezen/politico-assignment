@@ -29,8 +29,28 @@
     }
   }
 
+  &__main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include breakpoint($tablet) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__sidebar {
+    padding-top: 20px;
+  }
+
   &__subtitle {
     margin: 10px 0 5px;
+  }
+
+  &__text {
+    @include breakpoint($tablet) {
+      padding-right: 20px;
+    }
   }
 
   &__title {
