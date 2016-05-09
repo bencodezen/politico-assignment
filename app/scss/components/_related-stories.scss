@@ -1,0 +1,49 @@
+// ============================================================================
+// COMPONENT: #RelatedStories
+// ============================================================================
+
+.related-stories {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding-top: 30px;
+  border-top: 1px solid $light-grey;
+
+  &__author {
+    margin-top: 5px;
+    color: lighten($black, 50%);
+    font-size: 0.75em;
+  }
+
+  &__description {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  &__image {
+    margin-bottom: 0;
+  }
+
+  &__item {
+    flex: 1 1 100%;
+    padding: 0 10px;
+
+    @include breakpoint($tablet) {
+      flex: 1 1 50%;
+    }
+
+    @include breakpoint($desktop) {
+      flex: 1 1 25%;
+    }
+  }
+
+  &__title {
+    margin: 5px 0;
+    font-size: 1.1em;
+    line-height: 1.25;
+
+    a {
+      color: $black;
+    }
+  }
+}
