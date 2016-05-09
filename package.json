@@ -1,0 +1,33 @@
+{
+  "name": "politico-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencodezen/politico-assignment.git"
+  },
+  "author": "Ben Hong <bencodezen@gmail.com> (http://www.bencodezen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencodezen/politico-assignment/issues"
+  },
+  "homepage": "https://github.com/bencodezen/politico-assignment#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-uglifycss": "^1.0.5",
+    "jshint": "^2.9.1"
+  }
+}
