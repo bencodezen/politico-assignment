@@ -1,0 +1,18 @@
+// ============================================================================
+// COMPONENT: #Header
+// ============================================================================
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 55px;
+  padding: 0 20px;
+  background: $black;
+  color: $white;
+
+  a {
+    color: $white;
+  }
+}
