@@ -1,0 +1,8 @@
+// ============================================================================
+// COMPONENT: #Ads
+// ============================================================================
+
+.advertisement {
+  // Edge Case: !important used to ensure size of ad is not overridden by other styles
+  max-width: none !important;
+}
